@@ -71,7 +71,6 @@ public class DataBaseRepository {
         return weatherList;
     }*/
 
-    Alex Savin, [16.11.2021 9:25]
     public List<Weather> getSavedToDBWeather() {
         List<Weather> weatherList = new ArrayList<>();
         try (Connection connection = DriverManager.getConnection(DB_PATH)) {
